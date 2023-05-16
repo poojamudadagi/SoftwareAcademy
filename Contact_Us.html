@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<style type="text/css">
+    .navbar-brand{
+      font-family: bold;
+      font-size: 50px;
+      color: blue;
+    }
+    .container-fluid{
+      background-color:#9370D8;
+    }
+    .nav-item{
+      font-family: bold;
+    }
+    .container-sec{
+      background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_506755198_362244.jpg'); background-repeat: no-repeat;height:600px; width: 1300px;
+      align-content: center;
+    }
+    .nav-link:hover {
+      color: blue;
+    }
+		body{
+			background-color: #E6E6FA;
+		}
+		.container{
+			align-content: center;
+			padding-left:450px;
+		}
+		.flex{
+			display:grid;
+			grid-template-columns: 1fr;
+
+		 		}
+		
+		.col-12{
+			margin-left: 600px;
+			padding: 15px;
+		/*	margin-bottom: 100px;*/
+		}
+		h1{
+			
+		margin-left: 500px;
+		font-family: sans-serif;
+		}
+		.col g-3 needs-validation{
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><span style="color: red;">S</span><span style="color: red;">o</span><span style="color: red;">f</span><span style="color: red;">t</span><span style="color: red;">w</span><span style="color: red;">a</span><span style="color: red;">r</span><span style="color: red;">e</span>Academy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="About_Us.html">About Us</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="Courses.html">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+        </li>
+       
+       <!--  </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="Feedback.html">Feedback</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<form class="col g-3 needs-validation" novalidate>
+	<h1>Register Now</h1>
+
+	<hr></hr>
+	<div class="container">
+  <div class="col-md-4 position-relative">
+
+    <label for="validationTooltip01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="xcz" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+    <div class="col-md-4 position-relative">
+    <label for="validationTooltip02" class="form-label">Gender</label>
+    <input type="text" class="form-control" id="validationTooltip02" value="xcz" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltipUsername" class="form-label">E-mail</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip03" class="form-label">Contact No</label>
+    <input type="text" class="form-control" id="validationTooltip03" required>
+    <div class="invalid-tooltip">
+      Please provide a valid number.
+    </div>
+  </div>
+   <div class="col-md-4 position-relative">
+    <label for="validationTooltip05" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationTooltip05" required></div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip04" class="form-label">Course</label>
+    <select class="form-select" id="validationTooltip04" required>
+      <!-- <select selected disabled value="">Choose...</select> -->
+      	<option>java</option>
+        <option>PHP</option>
+        <option>Ui/Ux</option>
+        <option>Aws</option>
+        <option>Python</option>
+    </select>
+   </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button></div>
+  </div>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script> </body>
+</html>
